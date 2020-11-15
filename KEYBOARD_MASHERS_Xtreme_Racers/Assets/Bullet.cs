@@ -11,6 +11,6 @@ public class Bullet : MonoBehaviour
         //For adding explosion effect
         //GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
         //Destroy(effect, 5f);
-        //Destroy(gameObject, 5f);
+        Destroy(gameObject, 5f);
     }
 }
