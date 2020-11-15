@@ -28,12 +28,13 @@ public class CarController : MonoBehaviour
     private bool isTrap = false;
     private Rigidbody2D rb;
 
+    public GameObject bullet;
+
     void Awake()
     {
         Nitro.onNitro += onBoost;
         Trap.onTrap += onSetBack;
     }
-
 
     void Start()
     {
@@ -126,4 +127,19 @@ public class CarController : MonoBehaviour
         isTrap = true;
     }
 
+    public void shootBullet()
+    {
+        while (true)
+        {
+            GameObject laser = Instantiate(bullet) as GameObject;
+            laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 30);
+        }
+    }
+    private void Fire()
+    {
+        if (Input.GetKeyDown("space"))
+        {
+            shootBullet();
+        }
+    }
 }
