@@ -12,6 +12,8 @@ public class GlobalManager : MonoBehaviour
     public static int skin = 0;
     public static int damage = 1;
     public static int capacity = 10;
+
+	public static int coins = 0;
 	
 	void Awake()
 	{
