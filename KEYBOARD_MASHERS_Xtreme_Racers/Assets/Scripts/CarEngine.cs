@@ -35,15 +35,15 @@ public class CarEngine : MonoBehaviour
 
     private void Start()
     {
-        GetComponent<Rigidbody>().centerOfMass = centerOfMass;
-        Transform[] pathTransforms = path.GetComponentsInChildren<Transform>();
-        nodes = new List<Transform>();
+        GetComponent<Rigidbody2D>().centerOfMass = this.centerOfMass;
+        Transform[] pathTransforms = this.path.GetComponentsInChildren<Transform>();
+        this.nodes = new List<Transform>();
 
         for (int i = 0; i < pathTransforms.Length; i++)
         {
-            if (pathTransforms[i] != path.transform)
+            if (pathTransforms[i] != this.path.transform)
             {
-                nodes.Add(pathTransforms[i]);
+                this.nodes.Add(pathTransforms[i]);
             }
         }
     }
@@ -62,48 +62,48 @@ public class CarEngine : MonoBehaviour
     {
         RaycastHit hit;
         Vector3 sensorStartPos = transform.position;
-        sensorStartPos += transform.forward * frontSensorPosition.z;
-        sensorStartPos += transform.up * frontSensorPosition.y;
+        sensorStartPos += transform.forward * this.frontSensorPosition.z;
+        sensorStartPos += transform.up * this.frontSensorPosition.y;
         float avoidMultiplier = 0;
-        avoiding = false;
+        this.avoiding = false;
 
         //front right sensor
-        sensorStartPos += transform.right * frontSideSensorPosition;
-        if (Physics.Raycast(sensorStartPos, transform.forward, out hit, sensorLength))
+        sensorStartPos += transform.right * this.frontSideSensorPosition;
+        if (Physics.Raycast(sensorStartPos, transform.forward, out hit, this.sensorLength))
         {
             if (!hit.collider.CompareTag("Terrain"))
             {
                 Debug.DrawLine(sensorStartPos, hit.point);
-                avoiding = true;
+                this.avoiding = true;
                 avoidMultiplier -= 1f;
             }
         }
 
         //front right angle sensor
-        else if (Physics.Raycast(sensorStartPos, Quaternion.AngleAxis(frontSensorAngle, transform.up) * transform.forward, out hit, sensorLength))
+        else if (Physics.Raycast(sensorStartPos, Quaternion.AngleAxis(this.frontSensorAngle, transform.up) * transform.forward, out hit, this.sensorLength))
         {
             if (!hit.collider.CompareTag("Terrain"))
             {
                 Debug.DrawLine(sensorStartPos, hit.point);
-                avoiding = true;
+                this.avoiding = true;
                 avoidMultiplier -= 0.5f;
             }
         }
 
         //front left sensor
-        sensorStartPos -= transform.right * frontSideSensorPosition * 2;
-        if (Physics.Raycast(sensorStartPos, transform.forward, out hit, sensorLength))
+        sensorStartPos -= transform.right * this.frontSideSensorPosition * 2;
+        if (Physics.Raycast(sensorStartPos, transform.forward, out hit, this.sensorLength))
         {
             if (!hit.collider.CompareTag("Terrain"))
             {
                 Debug.DrawLine(sensorStartPos, hit.point);
-                avoiding = true;
+                this.avoiding = true;
                 avoidMultiplier += 1f;
             }
         }
 
         //front left angle sensor
-        else if (Physics.Raycast(sensorStartPos, Quaternion.AngleAxis(-frontSensorAngle, transform.up) * transform.forward, out hit, sensorLength))
+        else if (Physics.Raycast(sensorStartPos, Quaternion.AngleAxis(-this.frontSensorAngle, transform.up) * transform.forward, out hit, this.sensorLength))
         {
             if (!hit.collider.CompareTag("Terrain"))
             {
@@ -116,12 +116,12 @@ public class CarEngine : MonoBehaviour
         //front center sensor
         if (avoidMultiplier == 0)
         {
-            if (Physics.Raycast(sensorStartPos, transform.forward, out hit, sensorLength))
+            if (Physics.Raycast(sensorStartPos, transform.forward, out hit, this.sensorLength))
             {
                 if (!hit.collider.CompareTag("Terrain"))
                 {
                     Debug.DrawLine(sensorStartPos, hit.point);
-                    avoiding = true;
+                    this.avoiding = true;
                     if (hit.normal.x < 0)
                     {
                         avoidMultiplier = -1;
@@ -134,70 +134,70 @@ public class CarEngine : MonoBehaviour
             }
         }
 
-        if (avoiding)
+        if (this.avoiding)
         {
-            targetSteerAngle = maxSteerAngle * avoidMultiplier;
+            this.targetSteerAngle = this.maxSteerAngle * avoidMultiplier;
         }
 
     }
 
     private void ApplySteer()
     {
-        if (avoiding) return;
-        Vector3 relativeVector = transform.InverseTransformPoint(nodes[currentNode].position);
-        float newSteer = (relativeVector.x / relativeVector.magnitude) * maxSteerAngle;
-        targetSteerAngle = newSteer;
+        if (this.avoiding) return;
+        Vector3 relativeVector = this.path.InverseTransformPoint(this.nodes[this.currentNode].position);
+        float newSteer = (relativeVector.x / relativeVector.magnitude) * this.maxSteerAngle;
+        this.targetSteerAngle = newSteer;
     }
 
     private void Drive()
     {
-        currentSpeed = 2 * Mathf.PI * wheelFL.radius * wheelFL.rpm * 60 / 1000;
+        this.currentSpeed = 2 * Mathf.PI * this.wheelFL.radius * this.wheelFL.rpm * 60 / 1000;
 
-        if (currentSpeed < maxSpeed && !isBraking)
+        if (this.currentSpeed < maxSpeed && !this.isBraking)
         {
-            wheelFL.motorTorque = maxMotorTorque;
-            wheelFR.motorTorque = maxMotorTorque;
+            this.wheelFL.motorTorque = this.maxMotorTorque;
+            this.wheelFR.motorTorque = this.maxMotorTorque;
         }
         else
         {
-            wheelFL.motorTorque = 0;
-            wheelFR.motorTorque = 0;
+            this.wheelFL.motorTorque = 0;
+            this.wheelFR.motorTorque = 0;
         }
     }
 
     private void CheckWaypointDistance()
     {
-        if (Vector3.Distance(transform.position, nodes[currentNode].position) < 1f)
+        if (Vector3.Distance(transform.position, this.nodes[this.currentNode].position) < 1f)
         {
-            if (currentNode == nodes.Count - 1)
+            if (this.currentNode == this.nodes.Count - 1)
             {
-                currentNode = 0;
+                this.currentNode = 0;
             }
             else
             {
-                currentNode++;
+                this.currentNode++;
             }
         }
     }
 
     private void Braking()
     {
-        if (isBraking)
+        if (this.isBraking)
         {
-            carRenderer.material.mainTexture = textureBraking;
-            wheelRL.brakeTorque = maxBrakeTorque;
-            wheelRR.brakeTorque = maxBrakeTorque;
+            this.carRenderer.material.mainTexture = this.textureBraking;
+            this.wheelRL.brakeTorque = this.maxBrakeTorque;
+            this.wheelRR.brakeTorque = this.maxBrakeTorque;
         }
         else
         {
-            carRenderer.material.mainTexture = textureNormal;
-            wheelRL.brakeTorque = 0;
-            wheelRR.brakeTorque = 0;
+            this.carRenderer.material.mainTexture = this.textureNormal;
+            this.wheelRL.brakeTorque = 0;
+            this.wheelRR.brakeTorque = 0;
         }
     }
     private void LerpToSteerAngle()
     {
-        wheelFL.steerAngle = Mathf.Lerp(wheelFL.steerAngle, targetSteerAngle, Time.deltaTime * turnSpeed);
-        wheelFR.steerAngle = Mathf.Lerp(wheelFR.steerAngle, targetSteerAngle, Time.deltaTime * turnSpeed);
+        this.wheelFL.steerAngle = Mathf.Lerp(this.wheelFL.steerAngle, this.targetSteerAngle, Time.deltaTime * this.turnSpeed);
+        this.wheelFR.steerAngle = Mathf.Lerp(this.wheelFR.steerAngle, this.targetSteerAngle, Time.deltaTime * this.turnSpeed);
     }
 }
