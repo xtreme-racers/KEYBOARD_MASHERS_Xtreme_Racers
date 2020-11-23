@@ -14,7 +14,7 @@ public class LapCheckpoint : MonoBehaviour
             if (Car.CheckpointIndex == index + 1 || Car.CheckpointIndex == index - 1)
             { 
                 Car.CheckpointIndex = index;
-                Debug.Log(index);
+                //Debug.Log(index);
             }
         }
     }

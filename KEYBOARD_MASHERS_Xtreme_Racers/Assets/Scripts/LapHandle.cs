@@ -16,7 +16,7 @@ public class LapHandle : MonoBehaviour
                 Car.CheckpointIndex = 0;
                 Car.lapNumber++;
 
-                Debug.Log(Car.lapNumber);
+                Debug.Log("lab number" + Car.lapNumber);
             }
         }
     }
