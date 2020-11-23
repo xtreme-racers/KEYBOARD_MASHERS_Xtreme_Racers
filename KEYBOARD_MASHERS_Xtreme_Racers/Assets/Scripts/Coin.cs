@@ -14,7 +14,7 @@ public class Coin : MonoBehaviour
         {
             //Debug.Log("Coin!");
             GlobalManager.coins++;
-            Debug.Log(GlobalManager.coins);
+            Debug.Log("Coins: "+GlobalManager.coins);
             Destroy(this.gameObject);
             //TODO: delete the current coin
         }
