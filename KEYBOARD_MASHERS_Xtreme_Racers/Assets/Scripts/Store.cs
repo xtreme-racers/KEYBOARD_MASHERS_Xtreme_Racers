@@ -11,24 +11,34 @@ public class Store : MonoBehaviour
     public Button capacityButton;
 	public TMP_Text damageText;
     public TMP_Text capacityText;
+	public TMP_Text coinText;
     
     void Start()
     {
         damageText.text = GlobalManager.damage.ToString();;
         capacityText.text = GlobalManager.capacity.ToString();
+		coinText.text = GlobalManager.coins.ToString();
         damageButton.onClick.AddListener(increaseDamage);
         capacityButton.onClick.AddListener(increaseCapacity);
     }
     
     void increaseDamage()
     {
-        GlobalManager.damage+=1;
-        damageText.text = GlobalManager.damage.ToString();;
+        if (GlobalManager.coins > 0) {
+			GlobalManager.damage+=1;
+			GlobalManager.coins-=1;
+			damageText.text = GlobalManager.damage.ToString();
+			coinText.text = GlobalManager.coins.ToString();
+		}
     }
     
     void increaseCapacity()
     {
-        GlobalManager.capacity+=1;
-        capacityText.text = GlobalManager.capacity.ToString();;
+		if (GlobalManager.coins > 0) {
+			GlobalManager.capacity+=1;
+			GlobalManager.coins-=1;
+			capacityText.text = GlobalManager.capacity.ToString();
+			coinText.text = GlobalManager.coins.ToString();
+		}
     }
 }

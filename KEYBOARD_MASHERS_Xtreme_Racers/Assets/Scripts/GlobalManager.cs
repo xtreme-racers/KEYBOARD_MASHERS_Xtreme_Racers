@@ -9,10 +9,9 @@ public class GlobalManager : MonoBehaviour
 	public static int score = 0;
 	public static int difficulty = 1;
 	public static float volume = 1.0f;
-	public static int skin = 0;
 	public static int damage = 1;
 	public static int capacity = 10;
-	public static int coins = 0;
+	public static int coins = 10;
 	public static int laps = 2;
 	
 
