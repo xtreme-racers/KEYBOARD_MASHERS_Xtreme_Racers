@@ -41,7 +41,7 @@ public class AIController : MonoBehaviour
             
 		}
         
-        Debug.Log(towardNextTrigger.x +" "+ towardNextTrigger.y + " " + targetRot);
+        //Debug.Log(towardNextTrigger.x +" "+ towardNextTrigger.y + " " + targetRot);
 		float rot = Mathf.MoveTowardsAngle (transform.localEulerAngles.z, targetRot, steering);
         //rot = rot % rot + 270f;
         //De-transform.localEulerAngles.z

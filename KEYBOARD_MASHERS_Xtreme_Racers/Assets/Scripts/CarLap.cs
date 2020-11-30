@@ -17,7 +17,7 @@ public class CarLap : MonoBehaviour
     {
         lapNumber = 1;
         CheckpointIndex = 0;
-        //timerTest = GetComponent<Text>();
+        timerTest = GameObject.Find("Timer").GetComponent<Text>();
     }
 
     private void Update() {
