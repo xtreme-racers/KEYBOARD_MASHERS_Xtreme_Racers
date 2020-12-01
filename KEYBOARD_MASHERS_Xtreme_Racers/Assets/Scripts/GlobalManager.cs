@@ -13,6 +13,7 @@ public class GlobalManager : MonoBehaviour
 	public static int capacity = 10;
 	public static int coins = 10;
 	public static int laps = 2;
+	public static int bullet = 0;
 	
 
 	void Awake()

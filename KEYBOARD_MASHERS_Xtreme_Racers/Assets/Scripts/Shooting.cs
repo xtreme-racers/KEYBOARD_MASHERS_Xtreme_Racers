@@ -14,6 +14,7 @@ public class Shooting : MonoBehaviour
         if (Input.GetKeyDown("space"))
         {
             Shoot();
+			GlobalManager.bullet = 0;
         }
     }
 
