@@ -41,7 +41,7 @@ public class CheckPointTracker : MonoBehaviour
                 Debug.Log(gameObject.name+ " passed checkpoints: " + checkPointsPassed);
 
                 // call to rank racers
-                GlobalManager.RankingRacers();
+                RankingManager.RankingRacers();
             }
         }
     }

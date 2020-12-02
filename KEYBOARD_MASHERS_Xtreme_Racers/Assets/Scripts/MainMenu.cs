@@ -29,11 +29,14 @@ public class MainMenu : MonoBehaviour
     public void DirtScene()
     {
         SceneManager.LoadScene("Dirt Road");
+        Debug.Log("Drit Road Loaded");
     }
 
     public void CementScene()
     {
         SceneManager.LoadScene("Cement Road");
+        Debug.Log("Drit Road Loaded");
+
     }
 
     public void GoToMainMenu()
@@ -46,6 +49,8 @@ public class MainMenu : MonoBehaviour
         CarType = 1;
         Cement.SetActive(true);
         Dirt.SetActive(true);
+        Debug.Log("Red car Loaded");
+
     }
 
     public void BlueCar()
@@ -53,6 +58,8 @@ public class MainMenu : MonoBehaviour
         CarType = 2;
         Cement.SetActive(true);
         Dirt.SetActive(true);
+        Debug.Log("Blue car Loaded");
+
     }
 
     public void QuitGame()
