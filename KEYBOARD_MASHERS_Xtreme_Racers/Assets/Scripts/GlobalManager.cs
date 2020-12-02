@@ -13,6 +13,7 @@ public class GlobalManager : MonoBehaviour
 	public static int damage = 1;
 	public static int capacity = 10;
 	public static int coins = 10;
+	public static int maxHealth = 100;
 
 	public static GameObject[] AIs;
 	public static GameObject[] racers;
