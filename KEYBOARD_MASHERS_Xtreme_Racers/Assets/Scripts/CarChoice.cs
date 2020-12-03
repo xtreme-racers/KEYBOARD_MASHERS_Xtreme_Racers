@@ -19,7 +19,7 @@ public class CarChoice : MonoBehaviour
         {
             Audi.SetActive(true);
         }
-        if (CarImport == 2)
+        if(CarImport == 2)
         {
             MiniTruck.SetActive(true);
         }

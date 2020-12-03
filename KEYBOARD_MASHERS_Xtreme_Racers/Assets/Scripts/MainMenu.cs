@@ -10,14 +10,13 @@ public class MainMenu : MonoBehaviour
     public static int CarType;
     public GameObject Cement;
     public GameObject Dirt;
-
+	
     void Start()
     {
         slider.value = GlobalManager.volume;
     }
 	
-    public void playAgain()
-    {
+    public void playAgain(){
         SceneManager.LoadScene("PlayGame");
     }
 
@@ -66,8 +65,8 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Mini Truck Loaded");
 
     }
-	
-    public void Truck()
+
+	public void Truck()
     {
         CarType = 3;
         Cement.SetActive(true);
@@ -85,7 +84,7 @@ public class MainMenu : MonoBehaviour
 
     }
 	
-    public void Ambulance()
+	public void Ambulance()
     {
         CarType = 5;
         Cement.SetActive(true);
