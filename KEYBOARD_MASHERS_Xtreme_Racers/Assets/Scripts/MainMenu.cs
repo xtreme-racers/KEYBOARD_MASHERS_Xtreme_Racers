@@ -29,13 +29,13 @@ public class MainMenu : MonoBehaviour
     public void DirtScene()
     {
         SceneManager.LoadScene("Dirt Road");
-        Debug.Log("Drit Road Loaded");
+        Debug.Log("Dirt Road Loaded");
     }
 
     public void CementScene()
     {
         SceneManager.LoadScene("Cement Road");
-        Debug.Log("Drit Road Loaded");
+        Debug.Log("Cement Road Loaded");
 
     }
 
@@ -44,21 +44,56 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Menu");
     }
 
-    public void RedCar()
+    public void Audi()
     {
         CarType = 1;
         Cement.SetActive(true);
         Dirt.SetActive(true);
-        Debug.Log("Red car Loaded");
+        Debug.Log("Audi Loaded");
 
     }
 
-    public void BlueCar()
+    public void MiniTruck()
     {
         CarType = 2;
         Cement.SetActive(true);
         Dirt.SetActive(true);
-        Debug.Log("Blue car Loaded");
+        Debug.Log("Mini Truck Loaded");
+
+    }
+	public void Truck()
+    {
+        CarType = 3;
+        Cement.SetActive(true);
+        Dirt.SetActive(true);
+        Debug.Log("Truck Loaded");
+
+    }
+
+    public void Police()
+    {
+        CarType = 4;
+        Cement.SetActive(true);
+        Dirt.SetActive(true);
+        Debug.Log("Police car Loaded");
+
+    }
+	
+	public void Ambulance()
+    {
+        CarType = 5;
+        Cement.SetActive(true);
+        Dirt.SetActive(true);
+        Debug.Log("Ambulance Loaded");
+
+    }
+
+    public void BlackViper()
+    {
+        CarType = 6;
+        Cement.SetActive(true);
+        Dirt.SetActive(true);
+        Debug.Log("Black Viper Loaded");
 
     }
 
