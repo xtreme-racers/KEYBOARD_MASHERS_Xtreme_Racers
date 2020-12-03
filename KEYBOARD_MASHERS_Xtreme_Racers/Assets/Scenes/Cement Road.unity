@@ -1862,9 +1862,10 @@ GameObject:
   m_Component:
   - component: {fileID: 31058911}
   - component: {fileID: 31058912}
+  - component: {fileID: 31058913}
   m_Layer: 0
   m_Name: 25
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1893,7 +1894,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -1909,6 +1910,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &31058913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31058910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &31711088
 GameObject:
   m_ObjectHideFlags: 0
@@ -2000,9 +2014,10 @@ GameObject:
   m_Component:
   - component: {fileID: 34369493}
   - component: {fileID: 34369494}
+  - component: {fileID: 34369495}
   m_Layer: 0
   m_Name: 14
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2031,7 +2046,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -2047,6 +2062,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &34369495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34369492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &36636512
 GameObject:
   m_ObjectHideFlags: 0
@@ -5081,9 +5109,10 @@ GameObject:
   m_Component:
   - component: {fileID: 105370832}
   - component: {fileID: 105370833}
+  - component: {fileID: 105370834}
   m_Layer: 0
   m_Name: 29
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5112,7 +5141,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -5128,6 +5157,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &105370834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105370831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &108249217
 GameObject:
   m_ObjectHideFlags: 0
@@ -13772,9 +13814,10 @@ GameObject:
   m_Component:
   - component: {fileID: 264693445}
   - component: {fileID: 264693446}
+  - component: {fileID: 264693447}
   m_Layer: 0
   m_Name: 10
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13803,7 +13846,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -13819,6 +13862,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &264693447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264693444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &266292021
 GameObject:
   m_ObjectHideFlags: 0
@@ -14439,9 +14495,10 @@ GameObject:
   m_Component:
   - component: {fileID: 279649470}
   - component: {fileID: 279649471}
+  - component: {fileID: 279649472}
   m_Layer: 0
   m_Name: 20
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14470,7 +14527,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -14486,6 +14543,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &279649472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279649469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &284145264
 GameObject:
   m_ObjectHideFlags: 0
@@ -14739,9 +14809,10 @@ GameObject:
   m_Component:
   - component: {fileID: 288574625}
   - component: {fileID: 288574626}
+  - component: {fileID: 288574627}
   m_Layer: 0
   m_Name: 13
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14770,7 +14841,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -14786,6 +14857,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &288574627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288574624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &288577120
 GameObject:
   m_ObjectHideFlags: 0
@@ -14823,7 +14907,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StartFinish: {fileID: 1404358182}
   lap: {fileID: 2147009388}
-  health: {fileID: 979902059}
+  timer: {fileID: 0}
   endGame: {fileID: 1767745458}
 --- !u!114 &288577122
 MonoBehaviour:
@@ -16727,7 +16811,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 318544924}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 49.42, y: -22.46, z: -2.8608322}
+  m_LocalPosition: {x: -127.54, y: 5.02, z: -2.8608322}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1429166141}
@@ -23866,9 +23950,10 @@ GameObject:
   m_Component:
   - component: {fileID: 454157878}
   - component: {fileID: 454157879}
+  - component: {fileID: 454157880}
   m_Layer: 0
   m_Name: 12
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23897,7 +23982,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -23913,6 +23998,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &454157880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454157877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &454611223
 GameObject:
   m_ObjectHideFlags: 0
@@ -25220,6 +25318,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -25606,7 +25705,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StartFinish: {fileID: 1404358182}
   lap: {fileID: 2147009388}
-  health: {fileID: 979902059}
+  timer: {fileID: 0}
   endGame: {fileID: 1767745458}
 --- !u!114 &482297684
 MonoBehaviour:
@@ -26511,9 +26610,10 @@ GameObject:
   m_Component:
   - component: {fileID: 509497247}
   - component: {fileID: 509497248}
+  - component: {fileID: 509497249}
   m_Layer: 0
   m_Name: 3
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26542,7 +26642,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -26558,6 +26658,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &509497249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509497246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &513297318
 GameObject:
   m_ObjectHideFlags: 0
@@ -31090,9 +31203,10 @@ GameObject:
   m_Component:
   - component: {fileID: 579796394}
   - component: {fileID: 579796395}
+  - component: {fileID: 579796396}
   m_Layer: 0
   m_Name: 31
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31121,7 +31235,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -31137,6 +31251,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &579796396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579796393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &581671837
 GameObject:
   m_ObjectHideFlags: 0
@@ -31228,9 +31355,10 @@ GameObject:
   m_Component:
   - component: {fileID: 588556138}
   - component: {fileID: 588556139}
+  - component: {fileID: 588556140}
   m_Layer: 0
   m_Name: 30
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31259,7 +31387,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -31275,6 +31403,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &588556140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588556137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &589626295
 GameObject:
   m_ObjectHideFlags: 0
@@ -38272,9 +38413,10 @@ GameObject:
   m_Component:
   - component: {fileID: 726603060}
   - component: {fileID: 726603061}
+  - component: {fileID: 726603062}
   m_Layer: 0
   m_Name: 35
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38303,7 +38445,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -38319,6 +38461,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &726603062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726603059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &728149354
 GameObject:
   m_ObjectHideFlags: 0
@@ -41631,9 +41786,10 @@ GameObject:
   m_Component:
   - component: {fileID: 783041877}
   - component: {fileID: 783041878}
+  - component: {fileID: 783041879}
   m_Layer: 0
   m_Name: 2
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41662,7 +41818,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -41678,6 +41834,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &783041879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783041876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &786077745
 GameObject:
   m_ObjectHideFlags: 0
@@ -41729,7 +41898,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StartFinish: {fileID: 1404358182}
   lap: {fileID: 0}
-  health: {fileID: 0}
+  timer: {fileID: 0}
   endGame: {fileID: 1767745458}
 --- !u!114 &786077748
 MonoBehaviour:
@@ -41745,7 +41914,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   acceleration: 0.2
   steering: 6
-  health: 100
 --- !u!58 &786077749
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -45443,9 +45611,10 @@ GameObject:
   m_Component:
   - component: {fileID: 853720776}
   - component: {fileID: 853720777}
+  - component: {fileID: 853720778}
   m_Layer: 0
   m_Name: 19
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45474,7 +45643,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -45490,6 +45659,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &853720778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853720775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &854233940
 GameObject:
   m_ObjectHideFlags: 0
@@ -45851,9 +46033,10 @@ GameObject:
   m_Component:
   - component: {fileID: 859100475}
   - component: {fileID: 859100476}
+  - component: {fileID: 859100477}
   m_Layer: 0
   m_Name: 1
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45882,7 +46065,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -45898,6 +46081,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &859100477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859100474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &859404024
 GameObject:
   m_ObjectHideFlags: 0
@@ -46340,9 +46536,10 @@ GameObject:
   m_Component:
   - component: {fileID: 864969363}
   - component: {fileID: 864969364}
+  - component: {fileID: 864969365}
   m_Layer: 0
   m_Name: 17
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46371,7 +46568,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -46387,6 +46584,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &864969365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864969362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &869172165
 GameObject:
   m_ObjectHideFlags: 0
@@ -49888,9 +50098,10 @@ GameObject:
   m_Component:
   - component: {fileID: 937407828}
   - component: {fileID: 937407829}
+  - component: {fileID: 937407830}
   m_Layer: 0
   m_Name: 6
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49919,7 +50130,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -49935,6 +50146,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &937407830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937407827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &937953971
 GameObject:
   m_ObjectHideFlags: 0
@@ -52195,6 +52419,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -52271,7 +52496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StartFinish: {fileID: 1404358182}
   lap: {fileID: 0}
-  health: {fileID: 0}
+  timer: {fileID: 0}
   endGame: {fileID: 1767745458}
 --- !u!114 &980577401
 MonoBehaviour:
@@ -52287,7 +52512,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   acceleration: 0.2
   steering: 6
-  health: 100
 --- !u!58 &980577402
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -52819,9 +53043,10 @@ GameObject:
   m_Component:
   - component: {fileID: 992037581}
   - component: {fileID: 992037582}
+  - component: {fileID: 992037583}
   m_Layer: 0
   m_Name: 27
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52850,7 +53075,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -52866,6 +53091,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &992037583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992037580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &993555037
 GameObject:
   m_ObjectHideFlags: 0
@@ -65800,9 +66038,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1216956996}
   - component: {fileID: 1216956997}
+  - component: {fileID: 1216956998}
   m_Layer: 0
   m_Name: 24
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65831,7 +66070,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -65847,6 +66086,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &1216956998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216956995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &1217823997
 GameObject:
   m_ObjectHideFlags: 0
@@ -67963,9 +68215,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1259551232}
   - component: {fileID: 1259551233}
+  - component: {fileID: 1259551234}
   m_Layer: 0
   m_Name: 23
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67994,7 +68247,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -68010,6 +68263,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &1259551234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259551231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &1259697271
 GameObject:
   m_ObjectHideFlags: 0
@@ -72020,9 +72286,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1320943417}
   - component: {fileID: 1320943418}
+  - component: {fileID: 1320943419}
   m_Layer: 0
   m_Name: 16
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72051,7 +72318,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -72067,6 +72334,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &1320943419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320943416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &1321036841
 GameObject:
   m_ObjectHideFlags: 0
@@ -72077,9 +72357,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1321036842}
   - component: {fileID: 1321036843}
+  - component: {fileID: 1321036844}
   m_Layer: 0
   m_Name: 7
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72108,7 +72389,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -72124,6 +72405,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &1321036844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321036841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &1324945997
 GameObject:
   m_ObjectHideFlags: 0
@@ -76596,9 +76890,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1412013973}
   - component: {fileID: 1412013974}
+  - component: {fileID: 1412013975}
   m_Layer: 0
   m_Name: 18
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76627,7 +76922,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -76643,6 +76938,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &1412013975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412013972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &1413393136
 GameObject:
   m_ObjectHideFlags: 0
@@ -77859,7 +78167,7 @@ GameObject:
   - component: {fileID: 1429166142}
   m_Layer: 0
   m_Name: 0
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77888,7 +78196,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -80465,9 +80773,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1486309408}
   - component: {fileID: 1486309409}
+  - component: {fileID: 1486309410}
   m_Layer: 0
   m_Name: 28
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80496,7 +80805,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -80512,6 +80821,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &1486309410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486309407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &1487106105
 GameObject:
   m_ObjectHideFlags: 0
@@ -82421,9 +82743,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1513104754}
   - component: {fileID: 1513104755}
+  - component: {fileID: 1513104756}
   m_Layer: 0
   m_Name: 32
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82452,7 +82775,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -82468,6 +82791,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &1513104756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513104753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &1513650604
 GameObject:
   m_ObjectHideFlags: 0
@@ -83673,9 +84009,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1530658822}
   - component: {fileID: 1530658823}
+  - component: {fileID: 1530658824}
   m_Layer: 0
   m_Name: 8
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83704,7 +84041,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -83720,6 +84057,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &1530658824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530658821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &1533739797
 GameObject:
   m_ObjectHideFlags: 0
@@ -84580,9 +84930,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1543687592}
   - component: {fileID: 1543687593}
+  - component: {fileID: 1543687594}
   m_Layer: 0
   m_Name: 22
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84611,7 +84962,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -84627,6 +84978,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &1543687594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543687591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &1544115310
 GameObject:
   m_ObjectHideFlags: 0
@@ -87459,9 +87823,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1588203810}
   - component: {fileID: 1588203811}
+  - component: {fileID: 1588203812}
   m_Layer: 0
   m_Name: 21
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87490,7 +87855,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -87506,6 +87871,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &1588203812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588203809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &1588745908
 GameObject:
   m_ObjectHideFlags: 0
@@ -93491,8 +93869,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dbc4fca947495440aae7e9bfab2a9f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RedBody: {fileID: 482297682}
-  BlueBody: {fileID: 288577120}
+  Audi: {fileID: 0}
+  MiniTruck: {fileID: 0}
+  Truck: {fileID: 0}
+  Police: {fileID: 0}
+  Ambulance: {fileID: 0}
+  BlackViper: {fileID: 0}
   CarImport: 0
 --- !u!1 &1700477709
 GameObject:
@@ -99713,9 +100095,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1810895557}
   - component: {fileID: 1810895558}
+  - component: {fileID: 1810895559}
   m_Layer: 0
   m_Name: 34
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99744,7 +100127,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -99760,6 +100143,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &1810895559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810895556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &1812720968
 GameObject:
   m_ObjectHideFlags: 0
@@ -100418,9 +100814,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1826031650}
   - component: {fileID: 1826031651}
+  - component: {fileID: 1826031652}
   m_Layer: 0
   m_Name: 9
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100449,7 +100846,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -100465,6 +100862,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &1826031652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826031649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &1826903756
 GameObject:
   m_ObjectHideFlags: 0
@@ -105834,9 +106244,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1933279357}
   - component: {fileID: 1933279358}
+  - component: {fileID: 1933279359}
   m_Layer: 0
   m_Name: 11
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105865,7 +106276,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -105881,6 +106292,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &1933279359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933279356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &1933321514
 GameObject:
   m_ObjectHideFlags: 0
@@ -106215,9 +106639,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1939533584}
   - component: {fileID: 1939533585}
+  - component: {fileID: 1939533586}
   m_Layer: 0
   m_Name: 26
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106246,7 +106671,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -106262,6 +106687,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &1939533586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939533583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &1943183840
 GameObject:
   m_ObjectHideFlags: 0
@@ -107251,9 +107689,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1960817492}
   - component: {fileID: 1960817493}
+  - component: {fileID: 1960817494}
   m_Layer: 0
   m_Name: 4
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107282,7 +107721,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -107298,6 +107737,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &1960817494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960817491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &1962945854
 GameObject:
   m_ObjectHideFlags: 0
@@ -107551,9 +108003,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1966470437}
   - component: {fileID: 1966470438}
+  - component: {fileID: 1966470439}
   m_Layer: 0
   m_Name: 15
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107582,7 +108035,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -107598,6 +108051,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &1966470439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966470436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &1966474010
 GameObject:
   m_ObjectHideFlags: 0
@@ -109856,9 +110322,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2012620147}
   - component: {fileID: 2012620148}
+  - component: {fileID: 2012620149}
   m_Layer: 0
   m_Name: 5
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109887,7 +110354,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -109903,6 +110370,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &2012620149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012620146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &2013305075
 GameObject:
   m_ObjectHideFlags: 0
@@ -113798,7 +114278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StartFinish: {fileID: 1404358182}
   lap: {fileID: 0}
-  health: {fileID: 0}
+  timer: {fileID: 0}
   endGame: {fileID: 1767745458}
 --- !u!114 &2062411658
 MonoBehaviour:
@@ -113814,7 +114294,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   acceleration: 0.2
   steering: 6
-  health: 100
 --- !u!58 &2062411659
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -116707,9 +117186,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2107639508}
   - component: {fileID: 2107639509}
+  - component: {fileID: 2107639510}
   m_Layer: 0
   m_Name: 33
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116738,7 +117218,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.8836975}
@@ -116754,6 +117234,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.027214}
   m_EdgeRadius: 0
+--- !u!114 &2107639510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107639507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a24d764fd2ef4be2be026766de958a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointsPassed: 0
 --- !u!1 &2108240182
 GameObject:
   m_ObjectHideFlags: 0
@@ -119039,6 +119532,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
