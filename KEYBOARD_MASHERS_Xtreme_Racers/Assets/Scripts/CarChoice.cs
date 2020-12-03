@@ -4,20 +4,40 @@ using UnityEngine;
 
 public class CarChoice : MonoBehaviour
 {
-    public GameObject RedBody;
-    public GameObject BlueBody;
+    public GameObject Audi;
+    public GameObject MiniTruck;
+	public GameObject Truck;
+    public GameObject Police;
+	public GameObject Ambulance;
+    public GameObject BlackViper;
     public int CarImport;
 
     void Start()
     {
         CarImport = MainMenu.CarType;
-        if (CarImport == 1)
+        if(CarImport == 1)
         {
-            RedBody.SetActive(true);
+            Audi.SetActive(true);
         }
         if(CarImport == 2)
         {
-            BlueBody.SetActive(true);
+            MiniTruck.SetActive(true);
+        }
+		if(CarImport == 3)
+        {
+            Truck.SetActive(true);
+        }
+        if(CarImport == 4)
+        {
+            Police.SetActive(true);
+        }
+		if(CarImport == 5)
+        {
+            Ambulance.SetActive(true);
+        }
+        if(CarImport == 6)
+        {
+            BlackViper.SetActive(true);
         }
     }
 }
