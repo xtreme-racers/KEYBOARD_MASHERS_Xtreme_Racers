@@ -6,9 +6,9 @@ public class CarChoice : MonoBehaviour
 {
     public GameObject Audi;
     public GameObject MiniTruck;
-	public GameObject Truck;
+    public GameObject Truck;
     public GameObject Police;
-	public GameObject Ambulance;
+    public GameObject Ambulance;
     public GameObject BlackViper;
     public int CarImport;
 
@@ -23,19 +23,19 @@ public class CarChoice : MonoBehaviour
         {
             MiniTruck.SetActive(true);
         }
-		if(CarImport == 3)
+        if (CarImport == 3)
         {
             Truck.SetActive(true);
         }
-        if(CarImport == 4)
+        if (CarImport == 4)
         {
             Police.SetActive(true);
         }
-		if(CarImport == 5)
+        if (CarImport == 5)
         {
             Ambulance.SetActive(true);
         }
-        if(CarImport == 6)
+        if (CarImport == 6)
         {
             BlackViper.SetActive(true);
         }

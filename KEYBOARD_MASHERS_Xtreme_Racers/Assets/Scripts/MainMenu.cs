@@ -65,6 +65,7 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Mini Truck Loaded");
 
     }
+
 	public void Truck()
     {
         CarType = 3;
