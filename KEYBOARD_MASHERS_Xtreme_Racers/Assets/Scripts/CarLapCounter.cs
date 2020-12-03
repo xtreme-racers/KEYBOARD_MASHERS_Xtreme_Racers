@@ -7,7 +7,7 @@ public class CarLapCounter : MonoBehaviour {
 
 	public Track StartFinish;
 	public Text lap;
-	public Text timer;
+	public Text health;
 
 	public EndGame endGame;
 
@@ -26,6 +26,7 @@ public class CarLapCounter : MonoBehaviour {
 		if (lap) {
 			lap.text = string.Format("Lap {0}", currentLap);		
 		}
+        health.text = string.Format("Health: {0}", GlobalManager.maxHealth.ToString());
 	}
 
 	public void OnLapTrigger(Track trigger) {
