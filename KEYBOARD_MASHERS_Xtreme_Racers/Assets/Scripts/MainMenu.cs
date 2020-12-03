@@ -15,14 +15,9 @@ public class MainMenu : MonoBehaviour
     {
         slider.value = GlobalManager.volume;
     }
-<<<<<<< HEAD
-
+	
     public void playAgain()
     {
-=======
-	
-    public void playAgain(){
->>>>>>> f3266658d6ea73f030428958d853f5f03257c178
         SceneManager.LoadScene("PlayGame");
     }
 
@@ -71,11 +66,8 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Mini Truck Loaded");
 
     }
-<<<<<<< HEAD
+	
     public void Truck()
-=======
-	public void Truck()
->>>>>>> f3266658d6ea73f030428958d853f5f03257c178
     {
         CarType = 3;
         Cement.SetActive(true);
@@ -92,13 +84,8 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Police car Loaded");
 
     }
-<<<<<<< HEAD
-
-    public void Ambulance()
-=======
 	
-	public void Ambulance()
->>>>>>> f3266658d6ea73f030428958d853f5f03257c178
+    public void Ambulance()
     {
         CarType = 5;
         Cement.SetActive(true);
