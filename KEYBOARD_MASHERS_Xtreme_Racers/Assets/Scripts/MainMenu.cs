@@ -16,6 +16,10 @@ public class MainMenu : MonoBehaviour
         slider.value = GlobalManager.volume;
     }
 	
+    public void playAgain(){
+        SceneManager.LoadScene("PlayGame");
+    }
+
     public void PlayGame()
     {
         SceneManager.LoadScene("MainScene");

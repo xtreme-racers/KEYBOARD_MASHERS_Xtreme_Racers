@@ -966,7 +966,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1240386421}
-        m_MethodName: PlayGame
+        m_MethodName: playAgain
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5231,8 +5231,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageButton: {fileID: 1490227623}
   capacityButton: {fileID: 1913827700}
+  healthButton: {fileID: 0}
   damageText: {fileID: 1402413816}
   capacityText: {fileID: 337290662}
+  healthText: {fileID: 0}
+  coinText: {fileID: 0}
 --- !u!1 &1203516167
 GameObject:
   m_ObjectHideFlags: 0
@@ -5337,6 +5340,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 1006934315}
+  Cement: {fileID: 0}
+  Dirt: {fileID: 0}
 --- !u!224 &1240386422
 RectTransform:
   m_ObjectHideFlags: 0

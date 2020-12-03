@@ -151,6 +151,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 756666085}
+  Cement: {fileID: 0}
+  Dirt: {fileID: 0}
 --- !u!224 &4380350
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1726,8 +1728,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageButton: {fileID: 135446889}
   capacityButton: {fileID: 1666920700}
+  healthButton: {fileID: 0}
   damageText: {fileID: 287052640}
   capacityText: {fileID: 950031078}
+  healthText: {fileID: 0}
+  coinText: {fileID: 0}
 --- !u!1 &343714082
 GameObject:
   m_ObjectHideFlags: 0
@@ -4975,7 +4980,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 4380349}
-        m_MethodName: PlayGame
+        m_MethodName: playAgain
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
