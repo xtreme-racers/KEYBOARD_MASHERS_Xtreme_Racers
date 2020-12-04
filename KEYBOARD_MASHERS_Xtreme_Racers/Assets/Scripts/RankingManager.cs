@@ -22,6 +22,7 @@ public class RankingManager : MonoBehaviour
 		// IMPORTANT:
 		// When adding a new AI, make sure set the tag to "AI" in inspector
 		ranking = GameObject.Find("Ranking").GetComponent<Text>();
+        if(ranking == null){Debug.Log("ERROR!");}
 		player  = GameObject.FindWithTag("Player");
 		AIs = GameObject.FindGameObjectsWithTag("AI");
 
@@ -61,6 +62,7 @@ public class RankingManager : MonoBehaviour
             for(int i=0; i<racers.Length; i++){
                 if(racers[i] == player){
                     ranking.text = "Player rank: " + (i+1);
+                    Debug.Log("Rank: " +(i+1));
                     break;
                 }
             }

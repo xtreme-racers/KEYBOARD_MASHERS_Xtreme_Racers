@@ -25479,6 +25479,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -36010,6 +36011,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 496321277631341804, guid: a295e53b04392824fb51447ba93921f1,
+        type: 3}
+      propertyPath: m_Name
+      value: Rank
+      objectReference: {fileID: 0}
     - target: {fileID: 496321277878173138, guid: a295e53b04392824fb51447ba93921f1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -36140,6 +36146,31 @@ PrefabInstance:
       propertyPath: firePoint
       value: 
       objectReference: {fileID: 667799130}
+    - target: {fileID: 496321278629990464, guid: a295e53b04392824fb51447ba93921f1,
+        type: 3}
+      propertyPath: m_Name
+      value: Rank
+      objectReference: {fileID: 0}
+    - target: {fileID: 496321278774952355, guid: a295e53b04392824fb51447ba93921f1,
+        type: 3}
+      propertyPath: m_Name
+      value: Rank
+      objectReference: {fileID: 0}
+    - target: {fileID: 496321278774952357, guid: a295e53b04392824fb51447ba93921f1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 496321278883828966, guid: a295e53b04392824fb51447ba93921f1,
+        type: 3}
+      propertyPath: m_Name
+      value: Rank
+      objectReference: {fileID: 0}
+    - target: {fileID: 496321278924091377, guid: a295e53b04392824fb51447ba93921f1,
+        type: 3}
+      propertyPath: m_Name
+      value: Rank
+      objectReference: {fileID: 0}
     - target: {fileID: 496321278975306729, guid: a295e53b04392824fb51447ba93921f1,
         type: 3}
       propertyPath: StartFinish
@@ -36210,6 +36241,11 @@ PrefabInstance:
       propertyPath: timer
       value: 
       objectReference: {fileID: 472729297}
+    - target: {fileID: 496321279364083786, guid: a295e53b04392824fb51447ba93921f1,
+        type: 3}
+      propertyPath: m_Name
+      value: Rank
+      objectReference: {fileID: 0}
     - target: {fileID: 496321279377898082, guid: a295e53b04392824fb51447ba93921f1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -36264,7 +36300,7 @@ PrefabInstance:
         type: 3}
       propertyPath: timer
       value: 
-      objectReference: {fileID: 472729297}
+      objectReference: {fileID: 979902059}
     - target: {fileID: 496321279607791087, guid: a295e53b04392824fb51447ba93921f1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -42454,6 +42490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   acceleration: 0.2
   steering: 6
+  AIhealth: 100
 --- !u!58 &786077749
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -53016,6 +53053,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -53108,6 +53146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   acceleration: 0.2
   steering: 6
+  AIhealth: 100
 --- !u!58 &980577402
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -116714,6 +116753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   acceleration: 0.2
   steering: 6
+  AIhealth: 100
 --- !u!58 &2062411659
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -122004,6 +122044,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
