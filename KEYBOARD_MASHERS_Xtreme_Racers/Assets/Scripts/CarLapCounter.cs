@@ -26,6 +26,7 @@ public class CarLapCounter : MonoBehaviour {
 		if (lap) {
 			lap.text = string.Format("Lap {0}", currentLap);		
 		}
+		timer.text = string.Format("Health: {0}", GlobalManager.maxHealth.ToString());
 	}
 
 	public void OnLapTrigger(Track trigger) {

@@ -13,6 +13,12 @@ public class Bullet : MonoBehaviour
 		{
 			GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
 			Destroy(effect, 1f);
+			AIController Ai = collision.gameObject.GetComponent<AIController>();
+            Ai.AIhealth -= GlobalManager.damage;
+            if(Ai.AIhealth <= 0)
+            {
+                Destroy(collision.gameObject);
+            }
 			GlobalManager.bullet = 1;
 			
 		}

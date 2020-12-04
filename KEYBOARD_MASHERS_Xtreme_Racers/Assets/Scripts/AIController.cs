@@ -7,6 +7,7 @@ public class AIController : MonoBehaviour
 
     public float acceleration = 0.3f;
     public float steering = 4.0f;
+	public float AIhealth = 100f;
 
     Vector3 target;
 
