@@ -25522,7 +25522,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -36088,12 +36087,12 @@ PrefabInstance:
         type: 3}
       propertyPath: timer
       value: 
-      objectReference: {fileID: 472729297}
+      objectReference: {fileID: 979902059}
     - target: {fileID: 496321277878173143, guid: a295e53b04392824fb51447ba93921f1,
         type: 3}
       propertyPath: firePoint
       value: 
-      objectReference: {fileID: 667799130}
+      objectReference: {fileID: 667799132}
     - target: {fileID: 496321278333329530, guid: a295e53b04392824fb51447ba93921f1,
         type: 3}
       propertyPath: m_Name
@@ -36173,7 +36172,7 @@ PrefabInstance:
         type: 3}
       propertyPath: timer
       value: 
-      objectReference: {fileID: 472729297}
+      objectReference: {fileID: 979902059}
     - target: {fileID: 496321278337511625, guid: a295e53b04392824fb51447ba93921f1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -36233,12 +36232,12 @@ PrefabInstance:
         type: 3}
       propertyPath: timer
       value: 
-      objectReference: {fileID: 472729297}
+      objectReference: {fileID: 979902059}
     - target: {fileID: 496321278975306731, guid: a295e53b04392824fb51447ba93921f1,
         type: 3}
       propertyPath: firePoint
       value: 
-      objectReference: {fileID: 667799130}
+      objectReference: {fileID: 667799133}
     - target: {fileID: 496321278975306742, guid: a295e53b04392824fb51447ba93921f1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -36253,7 +36252,7 @@ PrefabInstance:
         type: 3}
       propertyPath: firePoint
       value: 
-      objectReference: {fileID: 667799130}
+      objectReference: {fileID: 667799134}
     - target: {fileID: 496321279143959623, guid: a295e53b04392824fb51447ba93921f1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -36263,6 +36262,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 5.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 496321279143959630, guid: a295e53b04392824fb51447ba93921f1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 496321279143959673, guid: a295e53b04392824fb51447ba93921f1,
         type: 3}
@@ -36283,7 +36287,7 @@ PrefabInstance:
         type: 3}
       propertyPath: timer
       value: 
-      objectReference: {fileID: 472729297}
+      objectReference: {fileID: 979902059}
     - target: {fileID: 496321279364083786, guid: a295e53b04392824fb51447ba93921f1,
         type: 3}
       propertyPath: m_Name
@@ -36318,12 +36322,12 @@ PrefabInstance:
         type: 3}
       propertyPath: timer
       value: 
-      objectReference: {fileID: 472729297}
+      objectReference: {fileID: 979902059}
     - target: {fileID: 496321279377898087, guid: a295e53b04392824fb51447ba93921f1,
         type: 3}
       propertyPath: firePoint
       value: 
-      objectReference: {fileID: 667799130}
+      objectReference: {fileID: 667799131}
     - target: {fileID: 496321279607791073, guid: a295e53b04392824fb51447ba93921f1,
         type: 3}
       propertyPath: StartFinish
@@ -36357,13 +36361,37 @@ PrefabInstance:
     - target: {fileID: 496321279607791094, guid: a295e53b04392824fb51447ba93921f1,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a295e53b04392824fb51447ba93921f1, type: 3}
 --- !u!4 &667799130 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 496321278009580661, guid: a295e53b04392824fb51447ba93921f1,
+  m_CorrespondingSourceObject: {fileID: 496321277698755228, guid: a295e53b04392824fb51447ba93921f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 667799129}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &667799131 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 496321278031496368, guid: a295e53b04392824fb51447ba93921f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 667799129}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &667799132 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 496321278599258562, guid: a295e53b04392824fb51447ba93921f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 667799129}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &667799133 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 496321278723382663, guid: a295e53b04392824fb51447ba93921f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 667799129}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &667799134 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 496321277783486552, guid: a295e53b04392824fb51447ba93921f1,
     type: 3}
   m_PrefabInstance: {fileID: 667799129}
   m_PrefabAsset: {fileID: 0}
@@ -53096,7 +53124,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -122087,7 +122114,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
