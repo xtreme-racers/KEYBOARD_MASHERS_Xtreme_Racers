@@ -22,6 +22,7 @@ public class PlayGameMenu : MonoBehaviour
 	public void toggleUpdate(bool val)
 	{
 		GlobalManager.openCV =  openCV.isOn;
+        Debug.Log(GlobalManager.openCV );
 	}
 	
     public void playAgain(){

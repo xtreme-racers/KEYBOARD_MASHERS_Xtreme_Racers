@@ -17,6 +17,8 @@ public class OpenCVController : MonoBehaviour
     int port;
     InputSimulator input;
 
+    bool pause = false;
+
     string move;
 
     // Start is called before the first frame update
@@ -59,19 +61,24 @@ public class OpenCVController : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        if(move == "w"){
-            // forward
-            input.Keyboard.KeyPress(VirtualKeyCode.UP);
-        }else if(move == "a"){
-            // left
-            input.Keyboard.KeyPress(VirtualKeyCode.UP);
-            input.Keyboard.KeyPress(VirtualKeyCode.LEFT);
-        }else if(move == "d"){
-            input.Keyboard.KeyPress(VirtualKeyCode.UP);
-            input.Keyboard.KeyPress(VirtualKeyCode.RIGHT);
-        }else if(move == "s"){
-            input.Keyboard.KeyPress(VirtualKeyCode.DOWN);
+    {   
+        if(Application.isFocused){
+            if(move == "w"){
+                // forward
+                input.Keyboard.KeyPress(VirtualKeyCode.UP);
+            }else if(move == "a"){
+                // left
+                input.Keyboard.KeyPress(VirtualKeyCode.UP);
+                input.Keyboard.KeyPress(VirtualKeyCode.LEFT);
+            }else if(move == "d"){
+                input.Keyboard.KeyPress(VirtualKeyCode.UP);
+                input.Keyboard.KeyPress(VirtualKeyCode.RIGHT);
+            }else if(move == "s"){
+                input.Keyboard.KeyPress(VirtualKeyCode.DOWN);
+            }
         }
     }
+
+
+    
 }

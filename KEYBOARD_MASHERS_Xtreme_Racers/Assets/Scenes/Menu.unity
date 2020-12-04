@@ -331,8 +331,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 1701029741}
-  Cement: {fileID: 0}
-  Dirt: {fileID: 0}
 --- !u!1 &129896807
 GameObject:
   m_ObjectHideFlags: 0

@@ -35,6 +35,8 @@ public class GlobalManager : MonoBehaviour
 
 	}
 
-	
+ 	static void update(){
+		Debug.Log(openCV);
+	}
 
 }
