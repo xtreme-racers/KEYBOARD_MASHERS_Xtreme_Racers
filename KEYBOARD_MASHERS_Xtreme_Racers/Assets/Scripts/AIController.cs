@@ -8,6 +8,21 @@ public class AIController : MonoBehaviour
     public float acceleration = 0.3f;
     public float steering = 4.0f;
 	public float AIhealth = 100f;
+	
+	void Start()
+    {	switch(GlobalManager.difficulty)
+		{
+			case 0:
+				AIhealth = 100f;
+				break;
+			case 1:
+				AIhealth = 200f;
+				break;
+			case 2:
+				AIhealth = 300f;
+				break;
+		}
+	}
 
     Vector3 target;
 
