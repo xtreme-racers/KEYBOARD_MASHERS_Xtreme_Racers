@@ -14,7 +14,7 @@ public class CarChoice : MonoBehaviour
 
     void Start()
     {
-        CarImport = MainMenu.CarType;
+        CarImport = PlayGameMenu.CarType;
         if(CarImport == 1)
         {
             Audi.SetActive(true);
